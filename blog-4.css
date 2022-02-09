@@ -57,13 +57,18 @@ margin-right: 10px;
     font-weight: 330;
     opacity: 0.7;
 }
+.nav-links li a:hover{
+    opacity: .9;
+    text-decoration: none;
+    transition: color 4s;
+}
 #header{
     height: 400px;
     width: 100%;
     background-color:  #343a40;
     position: relative;
 }
-.esas{
+.main{
     width: 40%;
     position: absolute;
     left: 50%;
@@ -71,7 +76,7 @@ margin-right: 10px;
     transform: translate(-97%,-50%);
     margin-top: 30px;
 }
-.esas p{
+.main p{
     color: white;
     font-size: 20px;
 }
@@ -88,7 +93,7 @@ margin-right: 10px;
     font-size: 20px;
     margin-top: 8px;
 }
-.orta{
+.middle{
     width: 100%;
     position: relative;
 }
@@ -97,7 +102,7 @@ margin-right: 10px;
     margin-left: 100px;
     margin-top: 40px;
     }
-.sag{
+.right{
     width: 25%;
     position: absolute;
     top: 0;
@@ -107,7 +112,7 @@ margin-right: 10px;
 .mrg{
     padding: 20px;
 }
-.sag1{
+.right1{
     width: 25%;
     position: absolute;
     top: 150px;
@@ -116,14 +121,17 @@ margin-right: 10px;
 ul{
     padding: 0 20px;
 }
-.sag2{
+.right1 ul li a:hover{
+    text-decoration: none;
+}
+.right2{
     width: 25%;
     position: absolute;
     top: 350px;
     right:90px;
    
 }
-.son{
+.next{
     height: 130px;
     background-color: #343a40;
 }
@@ -131,7 +139,7 @@ ul{
     margin-bottom: 30px;
     
 }
-.son p{
+.next p{
     color: white;
     text-align: center;
     line-height: 130px;
